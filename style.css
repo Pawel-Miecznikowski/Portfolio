@@ -1,0 +1,100 @@
+    body
+    {
+        background-color: rgb(3, 3, 56);
+        font-family: 'Lato', sans-serif;
+        color: rgb(228, 228, 228);
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;  
+        display: block;  
+    }
+    
+    /* HEADER */
+
+    header{
+        height: 80px;;
+    }
+    #menu
+    {
+        background-color:#040458;
+        position: fixed;
+        margin-top: 0px;
+        font-size: 20px;
+        height: 80px;
+        width: 100%;   
+        text-align: right;
+        
+        box-shadow: 2px 17px 8px -12px rgb(0, 13,53);
+ 
+    }
+    a
+    {
+        text-decoration: none;
+        color: rgb(228, 228, 228);
+    }
+    #logo
+    {
+        font-size: 30px;
+        padding-top: 25px;
+        padding-bottom: 30px;
+        margin-left: 30px;
+        float: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .lista
+    {
+        margin: 0;
+    }
+    li{
+        display: inline-block;
+        padding-left: 0px;
+        margin-right: 50px;
+        padding-top: 27px;
+        color: rgb(78, 78, 78);;
+        
+    }
+    li a:hover{
+        color: teal;
+    }
+
+    /* HEADER */
+    
+    .constainer{
+        height: 500px;
+        text-align: center;
+        
+    }
+    /* INTRO */
+    .text1{
+        position: absolute;
+        top: 350px;
+        left: 0;
+        right: 0;
+        font-size: 55px;
+        letter-spacing: 5px;
+        z-index: 2;
+        border-color: #040458;
+        animation: text-an 6s;
+        animation-iteration-count:infinite;
+    }
+
+
+    @keyframes text-an {
+        20%{
+            letter-spacing: 20px;
+            color: #262670;
+        }
+    }
+    /* INTRO */
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    
