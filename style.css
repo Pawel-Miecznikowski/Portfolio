@@ -19,7 +19,7 @@
         display: flex;
         background-color:#040458;
         position: fixed;
-        font-size: 20px;
+        font-size: 16px;
         height: 10vh;
         width: 100%;   
         flex-wrap: wrap;
